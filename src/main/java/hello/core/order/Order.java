@@ -35,7 +35,7 @@ public class Order {
         return discountPrice;
     }
 
-    public Order(Long memberId, String itemName, int itemPrice, int discountPrice) {
+    public Order(Long memberId, String itemName, int itqemPrice, int discountPrice) {
         this.memberId = memberId;
         this.itemName = itemName;
         this.itemPrice = itemPrice;
